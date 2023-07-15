@@ -1,0 +1,197 @@
+.home-personalInfo-container {
+    margin: 0 10% 0 10%;
+}
+
+/* Containers */
+.home-personalInfo-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-personalInfo-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding-right: 10%;
+    padding-bottom: 80px;
+}
+
+.home-personalInfo-right {
+    justify-content: right;
+    width: 40%;
+}
+
+/* Buttons */
+.home-personalInfo-buttonGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 30px 0px 0px 0px;
+}
+
+/* Picture */
+.grad-pic {
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+    border-radius: 45px;
+    box-shadow: 0px 0px 30px 1px lightgray;
+}
+
+
+.info-container-1 {
+    background-color: #3AA6B9;
+}
+
+.info-container-2 {
+    background-color: #3396C1;
+}
+
+.info-container-3 {
+    background-color: #5383BF;
+}
+
+
+/*Left picture*/
+.home-profInfo-job-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, .35);
+    transition: 0.5s;
+}
+
+.home-profInfo-job-pic:hover {
+    transform: scale(1.08);
+}
+
+
+/* Container for skills area (the 3 highlighted skills w/icons & text) */
+.home-profInfo-jobDetails-bottomDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding: 16px 0px 0px 0px;
+    gap: 32px;
+}
+
+/* Container for individual skill (icon + text) */
+.home-profInfo-jobDetails-skillContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Skill icon */
+.home-profInfo-svgIcon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Skill title/top text */
+.p-home-profInfo-jobDetails-skills {
+    font-size: 16px;
+}
+
+/* Skill paragraph/text description */
+.p-job-content {
+    font-size: 14px;
+    color: rgb(225, 240, 254);
+}
+
+
+/******** HOME PAGE - THIRD SECTION - PROJECTS ********/
+
+/* Outside container holding all cards */
+.home-projects-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+/* Container for individual card */
+.home-projects-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, .15);
+    background-color: #fff;
+    transition: .5s;
+}
+
+.home-projects-card:hover {
+    transform: translateY(-1rem);
+}
+
+
+.home-projects-card-img {
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+}
+
+/* Bottom portion of card (tags+title+description) */
+.home-projects-card-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+/* Container for tags */
+.home-projects-card-bottom-tag {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+/* Tags */
+.home-projects-card-bottom-tag-HTML {
+    background-color: #FD8E3B;
+    padding: 0 .5rem 0 .5rem;
+    border-radius: 20px;
+}
+
+.home-projects-card-bottom-tag-CSS {
+    background-color: #7DE29B;
+    padding: 0 .5rem 0 .5rem;
+    border-radius: 20px;
+}
+
+.home-projects-card-bottom-tag-salesforce {
+    background-color: #85E9FD;
+    padding: 0 .5rem 0 .5rem;
+    border-radius: 20px;
+}
+
+.home-projects-card-bottom-tag-python {
+    background-color: #A98BD5;
+    padding: 0 .5rem 0 .5rem;
+    border-radius: 20px;
+}
+
+/* Container for card title (ex: Portfolio Website) */
+.home-projects-card-bottom-title {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Container for card description */
+.home-projects-card-bottom-description {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    padding: 0px 0px 1rem 0px;
+}
+
+/* Bottom button - NOT IN USE but kept for optionality - UTILIZED IN PROJECTS*/
+.home-projects-card-bottom-button {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}

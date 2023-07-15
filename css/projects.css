@@ -1,0 +1,19 @@
+.grid-2-column {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    align-items: center;
+
+    gap: 5rem;
+
+    padding-bottom: 48px;
+}
+
+
+.grid-description-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 14px;
+}

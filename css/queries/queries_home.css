@@ -1,0 +1,168 @@
+/* BETWEEN 970px-1120px  */
+@media (max-width:1120px) {
+    .home-projects-card-container {
+        flex-direction: column;
+    }
+}
+
+/* BETWEEN 890px - 982px */
+@media (max-width:982px) {
+    .home-projects-card-container {
+        flex-direction: column;
+    }
+
+    .heading-primary {
+        font-size: 74px
+    }
+
+    .p-subheading,
+    .buttonStyle-1 {
+        font-size: 18px;
+    }
+}
+
+/* BETWEEN 704px - 890px */
+@media (max-width:890px) {
+    .home-projects-card-container {
+        flex-direction: column;
+    }
+
+    .heading-primary {
+        font-size: 74px
+    }
+
+    .p-subheading,
+    .buttonStyle-1 {
+        font-size: 18px;
+    }
+
+    .home-personalInfo-buttonGroup {
+        flex-direction: column;
+        margin: 30px 0px 0px 0px;
+    }
+
+    .buttonStyle-1 {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+
+
+    .info-container-1,
+    .info-container-2,
+    .info-container-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-details {
+        text-align: center;
+    }
+
+    .home-profInfo-jobDetails-bottomDetails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-profInfo-jobDetails-skillContainer {
+        width: 62.5%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* BELOW 704px */
+@media (max-width:704px) {
+    .heading-primary {
+        font-size: 52px;
+    }
+
+    .p-subheading,
+    .buttonStyle-1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:544px) {
+
+    /* NAV BAR */
+    .siteNav-container {
+        padding: 2rem 0rem 1.5rem 0rem;
+    }
+
+    .siteNav-list {
+        gap: 1rem;
+    }
+
+
+
+    /* CONTENT */
+    .section-intro {
+        padding: 0px 0px 48px 0px;
+    }
+
+    .heading-primary {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .home-personalInfo-left {
+        margin-top: .25rem;
+        gap: .25rem;
+    }
+
+    /* Flexing the containers to column */
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    /* Flexing the internal content to column */
+    .home-personalInfo-container {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .home-personalInfo-left {
+        order: 1;
+        padding: 0px 0px 0px 0px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .home-personalInfo-right {
+        order: 0;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .info-container-overall {
+        text-align: center;
+    }
+
+    .home-profInfo-jobDetails-skillContainer {
+        width: 100%;
+    }
+
+    .heading-primary {
+        margin-bottom: 0px;
+    }
+
+    .home-personalInfo-buttonGroup {
+        margin-top: .5rem;
+    }
+
+    .grad-pic {
+        height: 345px;
+        border-radius: 30px;
+    }
+
+}

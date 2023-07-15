@@ -1,0 +1,42 @@
+.grid-2-column-equal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 4rem;
+
+    padding-bottom: 48px;
+}
+
+.topOverviewDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    align-items: center;
+    text-align: center;
+}
+
+.youtube-video-1 {
+    width: 28rem;
+    height: 16rem;
+}
+
+.heading-secondary {
+    margin-bottom: 0px;
+}
+
+.subheading-description {
+    padding-bottom: 48px;
+}
+
+.project-numbering {
+    font-weight: bold;
+    font-size: 52px;
+
+    color: #3AA6B9;
+
+    margin-bottom: -1rem;
+}

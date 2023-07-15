@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/siteNav.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/projects_SF.css" />
+
+    <link rel="stylesheet" href="./css/queries/queries_projects.css" />
+
+    <script defer src="./js/script.js"></script>
+
+    <title>Eric Yium | Portfolio</title>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <div class="siteNav-open">
+        <nav class="siteNav-container">
+
+            <ul class="siteNav-list">
+                <li><a class="siteNav-link" href="./index.html">Home</a></li>
+                <li><a class="siteNav-link" href="./aboutMe.html">About Me</a></li>
+                <li><a class="siteNav-link-current" href="./projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!-- SECTION : INTRO -->
+    <section class="section-intro">
+        <div class="projects-container">
+            <div class="topOverviewDiv">
+                <h2 class="heading-secondary">
+                    Salesforce Demo App
+                </h2>
+                <iframe class="youtube-video-1" src="https://www.youtube.com/embed/gDj_QtGUxZs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p class="subheading-description">This demo application simulates a basic job application with the
+                    purpose
+                    of
+                    demonstrating
+                    fundamental capabilities in Salesforce such as
+                    Visualforce, Apex, object and relationship configuration, process automation using Flow Builder, and
+                    assisting with user experience by customizing page layouts
+                </p>
+            </div>
+
+
+            <!-- Outside container for all project steps-->
+            <div class="grid-2-column-equal">
+
+                <!-- Step 1 Container-->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/desktop_1_customObjects.svg" class="demoApp-sidePicture"
+                        alt="Desktop with custom object reference picture">
+                </div>
+                <div class="grid-description-container">
+                    <p class="project-numbering">1</p>
+                    <h3 class="heading-tertiary">Configuring Custom Objects & Relationships</h3>
+                    <p class="p-subheading">The data model defined included Position (custom object), Application
+                        (custom
+                        object), and Contact (standard object differentiated through record type). A Contact would apply
+                        to a Position through an Application with the objects being related to each other using a lookup
+                        relationship.
+                    </p>
+                </div>
+
+
+
+                <!-- Step 2 Container-->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/desktop_2_apex.svg" class="demoApp-sidePicture"
+                        alt="Desktop with apex picture">
+                </div>
+                <div class="grid-description-container">
+                    <p class="project-numbering">2</p>
+                    <h3 class="heading-tertiary">Coding the Web Form</h3>
+                    <p class="p-subheading">Using Apex and Visualforce, the web form dynamically retrieves Position
+                        records and using the information provided in the web form simultaneously creates a Contact
+                        and Application related to the Contact.
+                    </p>
+                </div>
+
+
+
+                <!-- Step 3 Container-->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/desktop_3_flows.svg" class="demoApp-sidePicture"
+                        alt="Desktop with Flow Builder reference picture">
+                </div>
+                <div class="grid-description-container">
+                    <p class="project-numbering">3</p>
+                    <h3 class="heading-tertiary">Automation with Flow Builder</h3>
+                    <p class="p-subheading">Using a record-triggered flow, logic paths were set up based on an
+                        Application's stage using a Decision element. Automation included automated emails to
+                        applicants, task creation assigned to internal users (using Get Records), and submission for
+                        Approval Process.
+                    </p>
+                </div>
+
+
+
+                <!-- Step 4 Container-->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/desktop_4_pageLayout.svg" class="demoApp-sidePicture"
+                        alt="Desktop with record page reference picture">
+                </div>
+                <div class="grid-description-container">
+                    <p class="project-numbering">4</p>
+                    <h3 class="heading-tertiary">Customizing the Record Page Layout</h3>
+                    <p class="p-subheading">A new record page layout was created to include a Path so internal users
+                        could quickly visualize an Application's status, Related tab which includes the file attachments
+                        an applicant provided and pending approvals, and the Details tab displaying the related Contact
+                        and Position.
+                    </p>
+                </div>
+
+
+
+                <!-- Step 5 Container-->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/desktop_5_website.svg" class="demoApp-sidePicture"
+                        alt="Desktop with Visualforce reference picture">
+                </div>
+                <div class="grid-description-container">
+                    <p class="project-numbering">5</p>
+                    <h3 class="heading-tertiary">Visualforce Page</h3>
+                    <p class="p-subheading">With the objects, relationships, and logic configured, testing of the web
+                        page from a user perspective allowed for discovery of any issues and assurance that the records
+                        were being created correctly from the web form.
+                    </p>
+                </div>
+
+
+
+                <!-- Step 6 Container-->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/desktop_6_email.svg" class="demoApp-sidePicture"
+                        alt="Desktop with email picture">
+                </div>
+                <div class="grid-description-container">
+                    <p class="project-numbering">6</p>
+                    <h3 class="heading-tertiary">Acceptance</h3>
+                    <p class="p-subheading">Stepped through the entire process to ensure functionality for the MVP
+                        product with testing confirming intended automation such as an Application submission email
+                        confirmation being sent to the user (pictured).
+                    </p>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <h3 class="heading-tertiary-centered">
+            Learn More
+        </h3>
+
+        <div class="footer-icon-container">
+            <div class="footer-icon">
+                <a class="footer-link" href="mailto:contactericy@yahoo.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-icon">
+                <a class="footer-link" href="https://github.com/EricYProjects" target="_blank"><img class="github-icon"
+                        src="./images/homePage/github-mark.png" alt="Github logo" /></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(153, 219, 245, .13);
+    overflow-x: hidden;
+}
+
+/* SECTIONS */
+.section-intro {
+    margin: 0;
+}
+
+.section-two {
+    background-color: #fff;
+    padding: 48px 0px 48px 0px;
+}
+
+
+/* FONTS */
+.p-subheading {
+    font-size: 18px;
+}
+
+
+.heading-primary {
+    font-size: 86px;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+/* MARGINS */
+.info-container-overall,
+.projects-container {
+    margin: 0 10% 0 10%;
+}
+
+
+
+
+
+/* BUTTON STYLES */
+.buttonStyle-1 {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    transition: .5s;
+    background-color: #3AA6B9;
+}
+
+
+.buttonStyle-1:hover {
+    opacity: 50%;
+}
+
+
+
+
+/*Outside info container (picture + title + description)*/
+.info-container-1,
+.info-container-2,
+.info-container-3 {
+    width: 100%;
+    border-radius: 15px;
+    color: #fff;
+    padding: 32px;
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    margin: 0px 0px 32px 0px;
+}
+
+
+
+/* Container for title + description */
+.info-container-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

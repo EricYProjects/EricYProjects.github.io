@@ -1,0 +1,135 @@
+/* BETWEEN 970px-1120px (landscape tablet) */
+@media (max-width:1120px) {}
+
+/* BETWEEN 890px - 970px */
+@media (max-width:982px) {
+    .home-projects-card-container {
+        flex-direction: column;
+    }
+
+    .heading-primary {
+        font-size: 74px
+    }
+
+    .p-subheading,
+    .buttonStyle-1 {
+        font-size: 18px;
+    }
+}
+
+/* BETWEEN 704px - 890px */
+@media (max-width:890px) {}
+
+/* BELOW 704px */
+@media (max-width:704px) {
+    .heading-primary {
+        font-size: 52px;
+    }
+
+    .heading-secondary {
+        text-align: center;
+    }
+
+    .p-subheading,
+    .buttonStyle-1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:644px) {
+
+    /* INTRO SECTION */
+    .heading-primary {
+        margin-bottom: 20px;
+    }
+
+    .home-personalInfo-buttonGroup {
+        margin-top: .5rem;
+    }
+
+    /* NAV BAR */
+    .siteNav-container {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .siteNav-list {
+        gap: 1rem;
+    }
+
+
+    /* CONTENT */
+    .section-intro {
+        padding: 0px 0px 48px 0px;
+    }
+
+    .heading-primary {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+
+    /* Flexing the containers to column */
+    .info-container-overall {
+        text-align: center;
+    }
+
+    .home-profInfo-jobDetails-skillContainer {
+        width: 100%;
+    }
+
+
+    /* EDUCATION CARDS */
+    .info-container-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-details {
+        padding: 32px 32px 32px 32px;
+    }
+
+    #outer-educationBlock-container {
+        padding-top: 0px;
+    }
+
+    .education-right-container {
+        order: -1;
+    }
+
+    .education-svg {
+        width: 100%;
+    }
+
+    /* CERTIFICATION CARD */
+    .info-container-3 {
+        background-color: #5383BF;
+        padding: 32px 32px 32px 32px;
+    }
+
+    .certification-img {
+        width: 40%;
+        height: 40%;
+    }
+
+    .certification-img:hover {
+        transform: scale(1.05);
+    }
+
+    .personalInterests-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personalInterests-paragraph {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,86 @@
+/* BETWEEN 970px-1120px (landscape tablet) */
+@media (max-width:1120px) {}
+
+/* BETWEEN 890px - 970px */
+@media (max-width:982px) {
+
+    /* HEADINGS & FONTS */
+    .p-subheading,
+    .buttonStyle-1 {
+        font-size: 18px;
+    }
+}
+
+/* BETWEEN 704px - 890px */
+@media (max-width:890px) {
+
+    /* HEADINGS & FONTS */
+    .heading-secondary {
+        text-align: center;
+    }
+
+    /* PROJECTS PAGE changing to Flex */
+    .grid-2-column {
+        display: flex;
+        flex-direction: column;
+
+        gap: 0;
+    }
+
+    .grid-description-container {
+        margin-bottom: 5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* SALESFORCE DEMO APP PAGE changing to Flex */
+    .grid-2-column-equal {
+        display: flex;
+        flex-direction: column;
+
+        gap: 0;
+
+        padding-bottom: 0px;
+    }
+
+}
+
+/* BELOW 704px */
+@media (max-width:704px) {
+
+    /* HEADINGS & FONTS */
+    .heading-secondary {
+        text-align: center;
+    }
+
+    .p-subheading,
+    .buttonStyle-1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:644px) {
+
+    /* NAV BAR */
+    .siteNav-container {
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .siteNav-list {
+        gap: 1rem;
+    }
+
+    /****************************/
+
+    /* CONTAINERS */
+    .section-intro {
+        padding: 0px 0px 48px 0px;
+    }
+
+
+    /* CONTENT */
+    .youtube-video-1 {
+        width: 100%;
+    }
+
+}

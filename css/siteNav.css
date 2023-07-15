@@ -1,0 +1,41 @@
+.siteNav-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.4rem;
+    position: relative;
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 0 10% 0 10%;
+
+}
+
+.siteNav-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2.2rem;
+    /* margin: 0 10% 0 10%; */
+}
+
+.siteNav-link,
+.siteNav-link-current {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.siteNav-link:hover {
+    color: #3AA6B9;
+}
+
+.siteNav-link-current {
+    background-color: #288ba9;
+    border-radius: 25px;
+    padding: .2rem .7rem .2rem .7rem;
+
+    color: #fff;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/siteNav.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+
+    <link rel="stylesheet" href="./css/queries/queries_projects.css" />
+
+    <script defer src="./js/script.js"></script>
+
+    <title>Eric Yium | Portfolio</title>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <div class="siteNav-open">
+        <nav class="siteNav-container">
+
+            <ul class="siteNav-list">
+                <li><a class="siteNav-link" href="./index.html">Home</a></li>
+                <li><a class="siteNav-link" href="./aboutMe.html">About Me</a></li>
+                <li><a class="siteNav-link-current" href="#">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!-- SECTION : INTRO -->
+    <section class="section-intro">
+        <div class="projects-container">
+            <h1 class="heading-secondary">
+                Projects
+            </h1>
+
+            <!-- Outer container holding all columns & rows (image + description)-->
+            <div class="grid-2-column">
+                <!-- Project Container 1 -->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/laptop_SFDemo.svg" alt="Laptop with Salesforce demo picture">
+                </div>
+                <div class="grid-description-container">
+                    <h3 class="heading-tertiary">Salesforce Demo App</h3>
+                    <p class="subheading">
+                        Salesforce application that intakes user information through a Visualforce web
+                        page and performs automated actions using Flows
+                    </p>
+
+                    <div class="home-projects-card-bottom-button">
+                        <a href="./project_SF.html" class="buttonStyle-1">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Project Container 2 -->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/laptop_PythonBot.svg" alt="Laptop with Python bot picture">
+                </div>
+                <div class="grid-description-container">
+                    <h3 class="heading-tertiary">Web Scraper</h3>
+                    <p class="subheading">Python bot utilizing OOP principles that scrapes a
+                        user's social media account to identify mismatches between followers and following</p>
+
+                    <div class="home-projects-card-bottom-button">
+                        <a href="https://github.com/EricYProjects/InstaBot" class="buttonStyle-1" target="_blank">Github
+                            Link</a>
+                    </div>
+                </div>
+
+                <!-- Project Container 3-->
+                <div class="grid-picture-container">
+                    <img src="./images/projects/laptop_Portfolio.svg" alt="Laptop with portfolio website picture">
+                </div>
+                <div class="grid-description-container">
+                    <h3 class="heading-tertiary">Portfolio Website</h3>
+                    <p class="subheading">This website! Created using HTML and CSS. This is the first iteration and I
+                        hope to improve upon it.</p>
+
+                    <div class="home-projects-card-bottom-button">
+                        <a href="https://github.com/EricYProjects" class="buttonStyle-1" target="_blank">Github
+                            Link</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <h3 class="heading-tertiary-centered">
+            Learn More
+        </h3>
+
+        <div class="footer-icon-container">
+            <div class="footer-icon">
+                <a class="footer-link" href="mailto:contactericy@yahoo.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="footer-icon">
+                <a class="footer-link" href="https://github.com/EricYProjects" target="_blank"><img class="github-icon"
+                        src="./images/homePage/github-mark.png" alt="Github logo" /></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

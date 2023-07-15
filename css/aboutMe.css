@@ -1,0 +1,197 @@
+.aboutMe-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 0 10%;
+    padding-bottom: 48px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#aboutMe-introParagraph {
+    max-width: 40rem;
+}
+
+
+.aboutMe-buttonGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin: 30px 0px 0px 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+
+/******** ABOUT ME PAGE - SECOND SECTION - EDUCATION ********/
+
+
+.info-container-overall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Outside job container (picture + title + skills)*/
+.info-container-1,
+.info-container-2,
+.info-container-3 {
+
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+
+    max-width: 40rem;
+}
+
+.info-container-1 {
+    background-color: #00853E;
+
+}
+
+.info-container-2 {
+    background-color: #500000;
+}
+
+.info-container-3 {
+    background-color: #5383BF;
+    padding: 32px 32px 32px 0px;
+}
+
+.info-container-details {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+
+    overflow: hidden;
+}
+
+
+
+.info-details {
+    padding: 32px 0px 32px 32px;
+}
+
+.education-right-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: -10px;
+
+    padding: 32px 32px 0px;
+}
+
+.education-svg {
+    width: 13rem;
+
+    transition: transform .5s;
+}
+
+#education-svg-clipboard:hover {
+    transform: translateY(-15px);
+}
+
+#education-svg-johnny {}
+
+#education-svg-johnny:hover {
+    animation: phone-buzz 0.2s 3;
+}
+
+
+.certification-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+
+.certification-img {
+    width: 125px;
+    height: 125px;
+
+    transition: .5s;
+}
+
+.certification-img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes phone-buzz {
+
+    25% {
+        transform: rotate(2deg);
+    }
+
+    75% {
+        transform: rotate(-2deg);
+    }
+
+}
+
+
+
+
+
+
+/******** ABOUT ME PAGE - THIRD SECTION - PERSONAL INTERETS ********/
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.personalInterests-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+
+    max-width: 40rem;
+}
+
+.personalInterests-paragraph {
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+
+}
+
+.personalInterests-pictures-container {
+    flex-basis: 50%;
+}
+
+.grid-2-by-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+.grid-img-container {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, .25);
+}
+
+.grid-img-class {
+    transition: transform .3s;
+}
+
+.grid-img-class:hover {
+    transform: scale(1.1);
+}
