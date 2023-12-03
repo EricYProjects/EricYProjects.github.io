@@ -175,6 +175,12 @@
     border-radius: 20px;
 }
 
+.home-projects-card-bottom-tag-python {
+    background-color: #ffdc5e;
+    padding: 0 .5rem 0 .5rem;
+    border-radius: 20px;
+}
+
 /* Container for card title (ex: Portfolio Website) */
 .home-projects-card-bottom-title {
     display: flex;
