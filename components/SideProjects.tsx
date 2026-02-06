@@ -104,7 +104,7 @@ export const SideProjects: React.FC = () => {
                 </div>
 
                 <div className="mt-12 flex flex-col md:flex-row gap-4">
-                    <a href="https://skeleton-queen-e0397.web.app/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 border-2 border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition-colors cursor-pointer font-bold text-sm">
+                    <a href="https://skeletonqueen.io" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 border-2 border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition-colors cursor-pointer font-bold text-sm">
                         <ExternalLink size={18} /> PLAY LIVE
                     </a>
                     <button 
