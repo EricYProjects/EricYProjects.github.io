@@ -62,7 +62,7 @@ const GatewayCard: React.FC<GatewayCardProps> = ({ type, icon, accentColor, hove
       <div className="relative z-20 flex flex-col h-full justify-between">
         
         {/* Top Icon Area */}
-        <div className="flex justify-between items-start">
+        <div className="flex justify-between items-start mb-4">
             <div className={`p-4 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-transform duration-300 group-hover:translate-x-2 group-hover:translate-y-2 group-hover:shadow-none text-black`}>
                 {icon}
             </div>

@@ -32,14 +32,14 @@ export const ProfessionalWork: React.FC = () => {
             <div className="w-4 h-4 bg-blue-700 animate-pulse"></div>
             <span className="text-xs font-bold tracking-[0.3em] text-blue-800">SYSTEM ARCHIVE_01</span>
         </div>
-        <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-black uppercase">
+        <h1 className="text-5xl md:text-8xl font-bold tracking-tighter text-black uppercase">
           PROFESSIONAL<br/><span className="text-blue-700">WORK</span>
         </h1>
       </header>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 border-b-4 border-black">
          {/* Sidebar / Filters */}
-         <div className="col-span-1 lg:col-span-3 border-b-4 lg:border-b-0 lg:border-r-4 border-black p-6 bg-white sticky top-24 self-start">
+         <div className="col-span-1 lg:col-span-3 border-b-4 lg:border-b-0 lg:border-r-4 border-black p-6 bg-white lg:sticky lg:top-24 self-start">
             <h3 className="text-sm font-bold tracking-widest mb-6 flex items-center gap-2">
                 <Layers size={16} /> FILTERS
             </h3>
